@@ -9,5 +9,4 @@ public class SistemaAgendaSpringApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SistemaAgendaSpringApplication.class, args);
 	}
-
 }
