@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 public class ContatoService {
-    private static final long LIMITE_MAXIMO_CONTATOS = 2;
+    private static final long LIMITE_MAXIMO_CONTATOS = 100;
     private final ContatoRepository repository;
 
     public ContatoService(ContatoRepository contatoRepository) {
